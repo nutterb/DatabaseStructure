@@ -4,6 +4,8 @@ Property Name | Type | Event Track | Description
 --------------|------|-------------|------------
 OID           | INT  | No          | Object Identifier
 IsActive      | BIT  | Yes         | Is the current Person active
+Sex           | INT  | Yes         | Reference to `Sex.OID`
+Gender        | INT  | Yes         | Reference to `Gender.OID`
 
 ### PersonEvent
 
@@ -26,5 +28,7 @@ Description   | VARCHAR(250) | No  | Event type description
 | Event Type | Description |
 |------------|-------------|
 | Create     | Create a new person object |
+| EditSex    | Edit the `Sex` property | 
+| EditGender | Edit the `Gender` property |
 | Activate   | Activate an existing person | 
 | Deactivate | Deactivate an existing person |
