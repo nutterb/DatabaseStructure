@@ -11,12 +11,12 @@ IsActive           | BIT         | Yes | Is the gender record active
 
 Property Name | Type | Event Track | Description
 --------------|------|-------------|------------
-OID           | INT      | No | Object identifier 
-Name          | INT      | No | Reference to `Gender.OID`
-EventType     | INT      | No | Reference to `GenderEventType.OID` 
-PreviousValue | INT      | No | Previous value of the changed property
-EventUser     | INT      | No | Reference to `Person.OID` 
-EventDateTime | DATETIME | No | DateTime of the event
+OID           | INT         | No | Object identifier 
+Name          | INT         | No | Reference to `Gender.OID`
+EventType     | INT         | No | Reference to `GenderEventType.OID` 
+PreviousValue | VARCHAR(20) | No | Previous value of the changed property
+EventUser     | INT         | No | Reference to `Person.OID` 
+EventDateTime | DATETIME    | No | DateTime of the event
 
 ### GenderEventType 
 
