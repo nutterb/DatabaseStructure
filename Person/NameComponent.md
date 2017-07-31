@@ -16,7 +16,7 @@ Property Name | Type | Event Track | Description
 OID           | INT      | No | Object identifier 
 NameComponent | INT      | No | Reference to `NameComponent.OID`
 EventType     | INT      | No | Reference to `NameEventType.OID` 
-PreviousValue | INT      | No | Previous value of the changed property
+PreviousValue | VARCHAR(15)      | No | Previous value of the changed property
 EventUser     | INT      | No | Reference to `Person.OID` 
 EventDateTime | DATETIME | No | DateTime of the event
 
