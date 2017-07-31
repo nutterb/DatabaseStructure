@@ -3,7 +3,7 @@
 Property Name | Type | Event Track | Description
 --------------|------|-------------|------------
 OID           | INT          | No  | Object Identifier
-Name          | VARCHAR(100) | Yes | Name of country
+Country       | VARCHAR(100) | Yes | Name of country
 Abbreviation  | VARCHAR(10)  | Yes | Country abbreviation
 InternetCode  | VARCHAR(2)   | Yes | Internet Code
 IsActive      | BIT          | Yes | Is the country active?
@@ -29,9 +29,9 @@ Description   | VARCHAR(250) | No  | Event type description
 
 | Event Type | Description |
 |------------|-------------|
-| Create     | Create a new person object |
-| EditName   | Edit the `Name` property | 
-| EditAbbrev | Edit the `Abbreviation` property |
-| EditCode   | Edit the `InternetCode` property |
-| Activate   | Activate an existing person | 
-| Deactivate | Deactivate an existing person |
+| Create      | Create a new person object |
+| EditCountry | Edit the `Country` property | 
+| EditAbbrev  | Edit the `Abbreviation` property |
+| EditCode    | Edit the `InternetCode` property |
+| Activate    | Activate an existing person | 
+| Deactivate  | Deactivate an existing person |
