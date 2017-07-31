@@ -8,7 +8,6 @@ Region        | INT  | Yes         | Reference to `Region.OID` (eg, state or pro
 PostalCode    | VARCHAR(20) | Yes  | Postal code (ZIP code)
 Country       | INT  | Yes         | Reference to `Country.OID`
 IsResidential | BIT  | Yes         | Is the address a residential address?
-IsMailing     | BIT  | Yes         | Is the address a mailing address?
 IsPhysical    | BIT  | Yes         | Is the address a physical address?
 IsActive      | BIT  | Yes         | Is the address active?
 
