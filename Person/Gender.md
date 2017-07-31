@@ -1,4 +1,4 @@
-### Sex
+### Gender
 
 Property Name | Type | Event Track | Description
 --------------|------|-------------|------------
