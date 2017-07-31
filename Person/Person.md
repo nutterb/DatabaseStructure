@@ -12,9 +12,10 @@ Gender        | INT  | Yes         | Reference to `Gender.OID`
 Property Name | Type | Event Track | Description
 --------------|------|-------------|------------
 OID           | INT         | No   | Object Identifier
-EventType     | INT         | No   | Reference to PersonEventType.OID
+Person        | INT         | No   | Reference to `Person.OID`
+EventType     | INT         | No   | Reference to `PersonEventType.OID`
 PreviousValue | VARCHAR(20) | No   | Previous value of the property
-EventUser     | INT         | No   | Reference to Person.OID
+EventUser     | INT         | No   | Reference to `Person.OID`
 EventDateTime | DATETIME    | No   | DateTime of the event
 
 ### PersonEventType
